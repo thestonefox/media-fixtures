@@ -4,9 +4,10 @@ The root [MIT license](../LICENSE) covers repository documentation.
 Each image and its format/size variants retain the status listed below.
 Conversion does not relicense third-party images under MIT.
 
-Our original colour chart and transparent shapes are dedicated under
+Our original colour chart, transparent shapes and generated space-station
+illustration are dedicated under
 [CC0 1.0 Universal](../LICENSES/CC0-1.0.txt). The Stonefox waives
-copyright and related rights in those original patterns to the extent
+copyright and related rights in those original works to the extent
 permitted by law; the CC0 fallback license applies where necessary.
 
 US federal government photographs are public domain in the United
@@ -209,6 +210,48 @@ Original: 4928 x 3280 pixels. Retrieved 2026-10-16.
 Original SHA-256:
 
 `2abea841a82635a37b27f2e31eecc060c69c82c8185581cec143e5a45046665b`
+
+### orbital-station
+
+**Orbital station and escort** - CC0-1.0
+
+Credit: The Stonefox / media-fixtures contributors; AI-generated with
+OpenAI image generation through Codex on 2026-10-16.
+
+A fictional spherical station and long-hull industrial escort craft.
+Generated and edited from text prompts without third-party reference images.
+This is an illustration, not a photograph or a depiction of a real spacecraft.
+Any copyright or related rights held by the repository contributors are
+dedicated under [CC0 1.0 Universal](../LICENSES/CC0-1.0.txt), as above.
+
+Original: 1536 x 1024 pixels. All format/size variants share the same framing.
+The generated original remains outside this repository; only the normal
+format and size variants are included here.
+
+Original SHA-256:
+
+`72e45605bd145d8b3ced3954cfff735d8ac0e53669bf9fbbc3c06485867c067d`
+
+<details>
+<summary>Generation prompt</summary>
+
+```text
+Use case: stylized-concept.
+Asset type: original landscape media fixture for a terminal image-rendering demo, with strong silhouettes that remain readable at 64 to 256 pixels.
+Primary request: a playful retro science-fiction illustration of a huge spherical space station and a tiny escort spaceship in deep space. Landscape 3:2 composition. The station occupies most of the left two thirds; the clearly separated little ship floats to the right. Keep both fully inside the frame.
+Station design: a complete silver-blue sphere with broad curved interlocking armour panels and subtle turquoise rim lighting. A small warm amber round observation window in its upper-right quadrant, with three short radial support ribs. A few large rectangular cyan-lit docking windows around the lower hemisphere. No equatorial trench, no weapon dish, no broken hemisphere.
+Ship design: an original small rounded capsule with TWO swept crescent-shaped stabilizer fins angled diagonally away from its body, like a tiny mechanical manta ray. Warm amber cockpit and two cyan engine lights. Strong easily recognizable silhouette, clearly larger than the sparse background stars. No hexagonal solar panels, no upright parallel slab wings.
+Style: polished clean retro game key art / restrained 3D illustration, big readable shapes, simple panel details, high contrast, silver and muted teal with warm amber accents on near-black navy space. Mostly empty background with a few tiny stars. Gentle lighting defines the spherical volume.
+Constraints: entirely original generic spacecraft designs. No recognizable franchise vehicles, logos, insignia, text, watermarks, beams, planets, extra ships, borders or UI. Not a screenshot or ASCII art: an actual illustrated image that will subsequently be rendered into ASCII by a library.
+```
+
+Final ship edit prompt:
+
+```text
+Edit this illustration, changing ONLY the small spacecraft on the right. Preserve the entire spherical station, stars, background, canvas size, composition and lighting. The current small spacecraft looks too much like a recognizable franchise fighter: replace its entire design with an original LONG industrial scout ship. Its actual construction is a long narrow rectangular fuselage, like an elongated utility shuttle, extending rearwards in visible perspective to the upper right, about three times the length of its boxy front cabin. Show a near-front three-quarter angle, sufficiently angled that its long side wall, roof and far rear engine block are clearly visible. Its nose is an angular rectangular cabin with a narrow horizontal amber windshield, absolutely NOT a spherical cockpit or round window. Mount two short horizontal outriggers beside the FRONT cabin, ending in chunky upright rounded rectangular engine nacelles. These are thick solid three-dimensional pods, with visible top and side surfaces and small cyan exhaust slots, NOT flat wings, NOT solar panels, NOT tall thin hexagonal or trapezoidal panels. Viewed head-on the front cabin, crossbar and vertical pods would vaguely resemble an H; the visible long hull must make it immediately apparent this is a different elongated craft. Keep the ship in the right-hand space, fully in frame, about the same overall front silhouette size as the existing craft. It should look like a small practical space tug / survey vessel, silver-blue metal with amber windows and cyan engine lights. Clean readable broad shapes for subsequent terminal-art conversion. No franchise symbols, no weapons, no text, no extra ships. Crucially no spherical central pod and no thin tall slab wings. Everything except the small ship stays unchanged.
+```
+
+</details>
 
 ## Illustrations
 
