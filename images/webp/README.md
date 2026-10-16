@@ -2,7 +2,7 @@
 
 [Gallery](../README.md) | [Source and rights](../RIGHTS.md)
 
-Sizes are the longest edge in pixels. Each category contains two
+Sizes are the longest edge in pixels. Each category contains at least two
 different subjects, each provided at all five sizes.
 
 ## Nature
@@ -39,6 +39,7 @@ different subjects, each provided at all five sizes.
 | --- | --- | --- | --- | --- | --- |
 | [The Blue Marble](../RIGHTS.md#blue-marble) | [64](space/blue-marble-64.webp) | [128](space/blue-marble-128.webp) | [256](space/blue-marble-256.webp) | [512](space/blue-marble-512.webp) | [1024](space/blue-marble-1024.webp) |
 | [Full Moon from the ISS](../RIGHTS.md#full-moon) | [64](space/full-moon-64.webp) | [128](space/full-moon-128.webp) | [256](space/full-moon-256.webp) | [512](space/full-moon-512.webp) | [1024](space/full-moon-1024.webp) |
+| [Orbital station and escort](../RIGHTS.md#orbital-station) | [64](space/orbital-station-64.webp) | [128](space/orbital-station-128.webp) | [256](space/orbital-station-256.webp) | [512](space/orbital-station-512.webp) | [1024](space/orbital-station-1024.webp) |
 
 ## Illustrations
 

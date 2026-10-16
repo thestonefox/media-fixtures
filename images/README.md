@@ -1,6 +1,6 @@
 # Image gallery
 
-14 subjects across 7 categories. Every subject is available in PNG,
+15 subjects across 7 categories. Every subject is available in PNG,
 JPEG, GIF, BMP, WebP and AVIF at longest-edge sizes of 64, 128, 256,
 512 and 1024 pixels.
 
@@ -77,6 +77,12 @@ Formats: [PNG](png/README.md) | [JPEG](jpg/README.md) | [GIF](gif/README.md) | [
 ![Full Moon from the ISS](png/space/full-moon-256.png)
 
 [Source and rights](RIGHTS.md#full-moon)
+
+### Orbital station and escort
+
+![Orbital station and escort](png/space/orbital-station-256.png)
+
+[Source and rights](RIGHTS.md#orbital-station)
 
 ## Illustrations
 

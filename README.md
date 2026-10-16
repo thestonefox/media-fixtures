@@ -3,21 +3,21 @@
 Freely reusable media files in different formats and sizes for testing
 and demos. Images now; other media types can be added later.
 
-**14 subjects | 7 categories | 6 formats | 5 sizes | 420 image files**
+**15 subjects | 7 categories | 6 formats | 5 sizes | 450 image files**
 
 [Browse the gallery](images/README.md) | [Credits and rights](images/RIGHTS.md)
 
 | Format | Files |
 | --- | --- |
-| [PNG](images/png/README.md) | 70 |
-| [JPEG](images/jpg/README.md) | 70 |
-| [GIF](images/gif/README.md) | 70 |
-| [BMP](images/bmp/README.md) | 70 |
-| [WebP](images/webp/README.md) | 70 |
-| [AVIF](images/avif/README.md) | 70 |
+| [PNG](images/png/README.md) | 75 |
+| [JPEG](images/jpg/README.md) | 75 |
+| [GIF](images/gif/README.md) | 75 |
+| [BMP](images/bmp/README.md) | 75 |
+| [WebP](images/webp/README.md) | 75 |
+| [AVIF](images/avif/README.md) | 75 |
 
 Each format folder contains nature, people, objects, animals, space,
-illustrations and patterns, with **two different subjects per category**.
+illustrations and patterns, with **at least two different subjects per category**.
 Every subject is the same image across all formats and sizes.
 
 ## Use a file
