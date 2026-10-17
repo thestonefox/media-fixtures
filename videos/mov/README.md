@@ -1,9 +1,10 @@
 # MOV video fixtures
 
-12 files across five subjects. Filenames include the full **width x height**
+15 files across five subjects. Filenames include the full **width x height**
 in pixels and the **orientation**. Each resolution is listed explicitly below.
-Codec: **H.264 / AVC**. Each clip is three seconds, 15 fps and silent.
-Total size: 932,898 bytes.
+Codec: **H.264 / AVC**. Clips are nominally three seconds at 15 fps.
+The original variants are silent; track examples below add sound.
+Total size: 1,190,205 bytes.
 
 [All video formats](../README.md) | [Credits and rights](../RIGHTS.md)
 
@@ -55,3 +56,17 @@ Moon orbit (space). [Source and rights](../RIGHTS.md#moon-orbit).
 | 160 x 90 | Landscape | [moon-orbit-160x90-landscape.mov](space/moon-orbit-160x90-landscape.mov) | 7,122 |
 | 320 x 180 | Landscape | [moon-orbit-320x180-landscape.mov](space/moon-orbit-320x180-landscape.mov) | 18,686 |
 | 1280 x 720 | Landscape | [moon-orbit-1280x720-landscape.mov](space/moon-orbit-1280x720-landscape.mov) | 137,166 |
+
+## Audio and subtitle tracks
+
+Moon orbit at **320 x 180 landscape**. These use the existing video frames
+with added test soundtracks, not location audio.
+
+| Variant | Audio tracks | Embedded subtitles | Download | Bytes |
+| --- | --- | --- | --- | ---: |
+| with-audio | 1 | None | [moon-orbit-320x180-landscape-with-audio.mov](space/moon-orbit-320x180-landscape-with-audio.mov) | 68,603 |
+| multi-audio | 2 | None | [moon-orbit-320x180-landscape-multi-audio.mov](space/moon-orbit-320x180-landscape-multi-audio.mov) | 118,610 |
+| with-subtitles | 1 | mov_text, mov_text | [moon-orbit-320x180-landscape-with-subtitles.mov](space/moon-orbit-320x180-landscape-with-subtitles.mov) | 70,094 |
+
+See the [track guide](../TRACKS.md) for audio codecs, track order, languages,
+subtitle sidecars and expected timing. [Source and rights](../RIGHTS.md#added-audio-and-subtitles).

@@ -1,9 +1,10 @@
 # OGV video fixtures
 
-12 files across five subjects. Filenames include the full **width x height**
+14 files across five subjects. Filenames include the full **width x height**
 in pixels and the **orientation**. Each resolution is listed explicitly below.
-Codec: **Theora**. Each clip is three seconds, 15 fps and silent.
-Total size: 1,159,674 bytes.
+Codec: **Theora**. Clips are nominally three seconds at 15 fps.
+The original variants are silent; track examples below add sound.
+Total size: 1,315,210 bytes.
 
 [All video formats](../README.md) | [Credits and rights](../RIGHTS.md)
 
@@ -55,3 +56,16 @@ Moon orbit (space). [Source and rights](../RIGHTS.md#moon-orbit).
 | 160 x 90 | Landscape | [moon-orbit-160x90-landscape.ogv](space/moon-orbit-160x90-landscape.ogv) | 8,630 |
 | 320 x 180 | Landscape | [moon-orbit-320x180-landscape.ogv](space/moon-orbit-320x180-landscape.ogv) | 18,164 |
 | 1280 x 720 | Landscape | [moon-orbit-1280x720-landscape.ogv](space/moon-orbit-1280x720-landscape.ogv) | 134,954 |
+
+## Audio and subtitle tracks
+
+Moon orbit at **320 x 180 landscape**. These use the existing video frames
+with added test soundtracks, not location audio.
+
+| Variant | Audio tracks | Embedded subtitles | Download | Bytes |
+| --- | --- | --- | --- | ---: |
+| with-audio | 1 | None | [moon-orbit-320x180-landscape-with-audio.ogv](space/moon-orbit-320x180-landscape-with-audio.ogv) | 69,129 |
+| multi-audio | 2 | None | [moon-orbit-320x180-landscape-multi-audio.ogv](space/moon-orbit-320x180-landscape-multi-audio.ogv) | 86,407 |
+
+See the [track guide](../TRACKS.md) for audio codecs, track order, languages,
+subtitle sidecars and expected timing. [Source and rights](../RIGHTS.md#added-audio-and-subtitles).

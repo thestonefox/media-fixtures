@@ -1,9 +1,10 @@
 # WebM video fixtures
 
-12 files across five subjects. Filenames include the full **width x height**
+15 files across five subjects. Filenames include the full **width x height**
 in pixels and the **orientation**. Each resolution is listed explicitly below.
-Codec: **VP9**. Each clip is three seconds, 15 fps and silent.
-Total size: 887,000 bytes.
+Codec: **VP9**. Clips are nominally three seconds at 15 fps.
+The original variants are silent; track examples below add sound.
+Total size: 1,111,061 bytes.
 
 [All video formats](../README.md) | [Credits and rights](../RIGHTS.md)
 
@@ -55,3 +56,17 @@ Moon orbit (space). [Source and rights](../RIGHTS.md#moon-orbit).
 | 160 x 90 | Landscape | [moon-orbit-160x90-landscape.webm](space/moon-orbit-160x90-landscape.webm) | 4,956 |
 | 320 x 180 | Landscape | [moon-orbit-320x180-landscape.webm](space/moon-orbit-320x180-landscape.webm) | 13,288 |
 | 1280 x 720 | Landscape | [moon-orbit-1280x720-landscape.webm](space/moon-orbit-1280x720-landscape.webm) | 72,583 |
+
+## Audio and subtitle tracks
+
+Moon orbit at **320 x 180 landscape**. These use the existing video frames
+with added test soundtracks, not location audio.
+
+| Variant | Audio tracks | Embedded subtitles | Download | Bytes |
+| --- | --- | --- | --- | ---: |
+| with-audio | 1 | None | [moon-orbit-320x180-landscape-with-audio.webm](space/moon-orbit-320x180-landscape-with-audio.webm) | 56,988 |
+| multi-audio | 2 | None | [moon-orbit-320x180-landscape-multi-audio.webm](space/moon-orbit-320x180-landscape-multi-audio.webm) | 109,491 |
+| with-subtitles | 1 | webvtt, webvtt | [moon-orbit-320x180-landscape-with-subtitles.webm](space/moon-orbit-320x180-landscape-with-subtitles.webm) | 57,582 |
+
+See the [track guide](../TRACKS.md) for audio codecs, track order, languages,
+subtitle sidecars and expected timing. [Source and rights](../RIGHTS.md#added-audio-and-subtitles).

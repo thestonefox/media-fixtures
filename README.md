@@ -22,12 +22,12 @@ Freely reusable media files in different formats and sizes for testing and demos
       <h3><a href="videos/README.md">Videos</a></h3>
       <table>
         <tr><th>Format</th><th>Files</th></tr>
-        <tr><td><a href="videos/mp4/README.md">MP4</a></td><td align="right">12</td></tr>
-        <tr><td><a href="videos/webm/README.md">WebM</a></td><td align="right">12</td></tr>
-        <tr><td><a href="videos/mov/README.md">MOV</a></td><td align="right">12</td></tr>
-        <tr><td><a href="videos/mkv/README.md">MKV</a></td><td align="right">12</td></tr>
-        <tr><td><a href="videos/avi/README.md">AVI</a></td><td align="right">12</td></tr>
-        <tr><td><a href="videos/ogv/README.md">OGV</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/mp4/README.md">MP4</a></td><td align="right">15</td></tr>
+        <tr><td><a href="videos/webm/README.md">WebM</a></td><td align="right">15</td></tr>
+        <tr><td><a href="videos/mov/README.md">MOV</a></td><td align="right">15</td></tr>
+        <tr><td><a href="videos/mkv/README.md">MKV</a></td><td align="right">15</td></tr>
+        <tr><td><a href="videos/avi/README.md">AVI</a></td><td align="right">14</td></tr>
+        <tr><td><a href="videos/ogv/README.md">OGV</a></td><td align="right">14</td></tr>
         <tr><td><a href="videos/gif/README.md">Animated GIF</a></td><td align="right">10</td></tr>
       </table>
     </td>
@@ -56,10 +56,12 @@ Freely reusable media files in different formats and sizes for testing and demos
   </tr>
 </table>
 
-Three-second silent clips, with full **width x height** and orientation in every
-filename. HD examples include **1280 x 720 landscape** and **720 x 1280 portrait**.
-The complete motion collection is under 13 MB, with every file below 2 MB.
-GIF previews stay small. See the [video resolutions](videos/README.md#resolutions).
+Three-second clips, including silent, audio and subtitle examples. Every
+filename states the full **width x height** and orientation. HD examples include **1280 x 720 landscape** and **720 x 1280 portrait**.
+The complete motion collection is under 16 MB, with every file below 2 MB.
+GIF previews stay small. See the [video resolutions](videos/README.md#resolutions)
+and [audio/subtitle track examples](videos/TRACKS.md), including SRT, VTT and ASS
+sidecars. Codec padding can extend audio/container timestamps slightly.
 
 Audio samples are three seconds at **48,000 Hz**, in **mono and stereo**.
 The complete audio collection is under 7 MB, with every file below 600 KB.
@@ -92,7 +94,7 @@ Absolute local paths work like any other file on your machine.
 | Type | Variant details | Timing |
 | --- | --- | --- |
 | Image | 64, 128, 256, 512, 1024 pixels on the longest edge | Static |
-| Video | Full width x height; see [resolutions](videos/README.md#resolutions) | 3 seconds, 15 fps |
+| Video | Full width x height; see [resolutions](videos/README.md#resolutions) | 3 seconds nominal, 15 fps |
 | Animation | Small width x height variants listed in the [video gallery](videos/README.md#resolutions) | 3 seconds, 5 fps |
 | Audio | 48,000 Hz; mono and stereo | 3 seconds nominal |
 | Font | Three families; regular (400) and bold (700) | Static |

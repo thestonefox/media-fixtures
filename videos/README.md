@@ -8,7 +8,8 @@ Bird videos include **720 x 1280 portrait** frames. Moon-orbit videos include
 **1280 x 720 landscape** frames. Both use native HD sources without upscaling;
 all subjects also have smaller variants listed below.
 
-There are **82 files**, 12,230,991 bytes in total (11.66 MiB).
+There are **98 video/animation files**, 15,481,128 bytes in total
+(14.76 MiB), plus six small subtitle sidecars.
 The largest file is 1,944,690 bytes; every fixture stays below 2 MB.
 
 [Repository usage](../README.md) | [Credits and rights](RIGHTS.md)
@@ -19,15 +20,18 @@ Extensions name containers, which can hold different codecs. These fixtures use:
 
 | Format | Video codec | Frame rate | Files |
 | --- | --- | ---: | ---: |
-| [MP4](mp4/README.md) | H.264 / AVC | 15 fps | 12 |
-| [WebM](webm/README.md) | VP9 | 15 fps | 12 |
-| [MOV](mov/README.md) | H.264 / AVC | 15 fps | 12 |
-| [MKV](mkv/README.md) | H.264 / AVC | 15 fps | 12 |
-| [AVI](avi/README.md) | Motion JPEG | 15 fps | 12 |
-| [OGV](ogv/README.md) | Theora | 15 fps | 12 |
+| [MP4](mp4/README.md) | H.264 / AVC | 15 fps | 15 |
+| [WebM](webm/README.md) | VP9 | 15 fps | 15 |
+| [MOV](mov/README.md) | H.264 / AVC | 15 fps | 15 |
+| [MKV](mkv/README.md) | H.264 / AVC | 15 fps | 15 |
+| [AVI](avi/README.md) | Motion JPEG | 15 fps | 14 |
+| [OGV](ogv/README.md) | Theora | 15 fps | 14 |
 | [Animated GIF](gif/README.md) | 128-colour palette | 5 fps | 10 |
 
-Every clip is **three seconds and silent**, with no subtitles or source metadata.
+The original 82 variants are **three seconds and silent**, with no subtitles.
+Sixteen additional [audio and subtitle examples](TRACKS.md) use Moon orbit
+with added piano or frequency-sweep soundtracks and selectable text tracks.
+Their nominal duration is three seconds; codec padding can extend timestamps.
 Each size keeps the source framing and aspect ratio, subject to rounding the
 shorter edge to an even pixel count. MP4, MOV and MKV contain the same encoded
 H.264 frames. Other formats are lossy encodes of the same normalized frames.
@@ -36,6 +40,17 @@ GIF delays use centiseconds. Theora can hold an unchanged image rather than
 emit a new decoded frame for every presentation tick. Use timestamps and duration
 when testing playback rather than assuming every format exposes 45 packets.
 These are compact smoke-test/demo fixtures, not a comprehensive codec suite.
+
+## Audio and subtitles
+
+Each of the six video containers includes a **one-audio-track** example and a
+**two-audio-track** example. MP4, MOV, MKV and WebM also include embedded
+English and Spanish subtitles; MKV adds an English styled ASS track.
+Separate **SRT, WebVTT and ASS** files provide the same two caption cues.
+These captions describe the scene and added soundtracks; they are not dialogue.
+
+See the [track guide and downloads](TRACKS.md) for codec mappings, track
+order, language tags, default-selection differences and subtitle sidecars.
 
 ## Resolutions
 
@@ -122,5 +137,5 @@ or clone the repository; no tools or dependencies are needed to use them.
 
 Keep clips short and each fixture below 2 MB. Include HD only when source
 resolution supports it; keep GIF previews small. This batch stays below
-13 MB total and needs no Git LFS. Do not add upstream originals,
+16 MB total and needs no Git LFS. Do not add upstream originals,
 conversion tools or generated build output to the repository.
