@@ -17,3 +17,7 @@
 *.m4a binary
 *.ogg binary
 *.opus binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
