@@ -1,6 +1,6 @@
 # Media Fixtures <img src="assets/media-fixtures.svg" width="157" height="36" align="top" alt="Images, video, audio and fonts">
 
-Freely reusable media files in different formats and sizes for testing and demos. Images, short videos and audio are available now; fonts can be added later.
+Freely reusable media files in different formats and sizes for testing and demos. Images, short videos, audio and fonts are available.
 
 ## Media
 
@@ -43,6 +43,16 @@ Freely reusable media files in different formats and sizes for testing and demos
         <tr><td><a href="audio/opus/README.md">Opus</a></td><td align="right">8</td></tr>
       </table>
     </td>
+    <td valign="top">
+      <h3><a href="fonts/README.md">Fonts</a></h3>
+      <table>
+        <tr><th>Format</th><th>Files</th></tr>
+        <tr><td><a href="fonts/ttf/README.md">TTF</a></td><td align="right">6</td></tr>
+        <tr><td><a href="fonts/otf/README.md">OTF</a></td><td align="right">6</td></tr>
+        <tr><td><a href="fonts/woff/README.md">WOFF</a></td><td align="right">6</td></tr>
+        <tr><td><a href="fonts/woff2/README.md">WOFF2</a></td><td align="right">6</td></tr>
+      </table>
+    </td>
   </tr>
 </table>
 
@@ -54,6 +64,10 @@ GIF previews stay small. See the [video resolutions](videos/README.md#resolution
 Audio samples are three seconds at **48,000 Hz**, in **mono and stereo**.
 The complete audio collection is under 7 MB, with every file below 600 KB.
 See the [audio samples](audio/README.md) for codecs, downloads and source credits.
+
+Fonts include three families in regular and bold, each in four formats.
+The complete font collection is under 5 MB, with every font below 450 KB.
+See the [font gallery](fonts/README.md) for specimens and original OFL licenses.
 
 ## Use a file
 
@@ -81,6 +95,7 @@ Absolute local paths work like any other file on your machine.
 | Video | Full width x height; see [resolutions](videos/README.md#resolutions) | 3 seconds, 15 fps |
 | Animation | Small width x height variants listed in the [video gallery](videos/README.md#resolutions) | 3 seconds, 5 fps |
 | Audio | 48,000 Hz; mono and stereo | 3 seconds nominal |
+| Font | Three families; regular (400) and bold (700) | Static |
 
 Image filenames use `images/<format>/<category>/<subject>-<size>.<extension>`.
 Video and animated GIF filenames use:
@@ -112,10 +127,21 @@ audio/<format>/<category>/<subject>-<sample-rate>hz-<mono-or-stereo>.<extension>
 For example, `birdsong-48000hz-stereo.mp3` is 48,000 Hz with two channels.
 See the [audio guide](audio/README.md) for bitrate and codec-padding details.
 
+Font filenames identify the family and style:
+
+```text
+fonts/<format>/<category>/<family>-<style>.<extension>
+```
+
+For example, `source-sans-3-bold.woff2` is a static bold face, weight 700.
+
 ## Rights
 
-Credits, source links and public-domain/CC0 evidence are recorded in
+Credits, source links and public-domain/CC0 evidence for images, video and
+audio are recorded in
 [image rights](images/RIGHTS.md), [video rights](videos/RIGHTS.md) and
 [audio rights](audio/RIGHTS.md).
+Fonts use SIL OFL-1.1; their original licenses and provenance are linked in
+[font rights](fonts/RIGHTS.md).
 The [MIT license](LICENSE) covers repository documentation and the original
 project logo. It does not relicense third-party media.
