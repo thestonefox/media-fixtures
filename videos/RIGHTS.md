@@ -11,7 +11,8 @@ differ. The wave simulation was released by its author into the public domain,
 with an unconditional permission fallback where dedication is not possible.
 No endorsement, trademark or personality rights are granted.
 
-Only short, silent, resized derivatives are stored here. Upstream originals,
+The original variants are short, silent, resized derivatives. Additional
+audio/subtitle fixtures combine those frames with the credited material below. Upstream originals,
 conversion scripts and working files are not part of this repository. All video
 containers of a subject use the same three-second excerpt. GIF variants sample
 the same interval at a lower frame rate for compact previews.
@@ -32,7 +33,8 @@ the same interval at a lower frame rate for compact previews.
 - VP9: libvpx-vp9, CRF 34, unconstrained bitrate, good deadline, CPU-used 2.
 - Motion JPEG: quality 6, full-range YUV 4:2:0; the HD bird uses quality 10
   to stay below 2 MB. Theora: quality 5.
-- Audio, subtitles, source metadata and chapters are removed. Container-required
+- In the original silent variants, audio, subtitles, source metadata and
+  chapters are removed. Container-required
   metadata and FFmpeg encoder identification remain. Lossy colours vary by codec.
 
 The quoted start/end times below refer to each downloaded source's playback
@@ -131,3 +133,33 @@ Excerpt: 10.000 to 13.000 seconds; output is silent.
 Original SHA-256:
 
 `65ec4514649374c4ad87c6b99fa94cf2d9fa91e7a37e72f145d43979cfb6d854`
+
+## Added audio and subtitles
+
+The `with-audio`, `multi-audio` and `with-subtitles` Moon-orbit variants use
+the same NASA footage credited in [moon-orbit](#moon-orbit). Video packets are
+copied from the existing 320 x 180 fixtures without another video encode.
+Added audio is illustrative test material, not audio recorded at the scene.
+
+- Piano: Tozan, CC0, from the existing
+  [soft-piano recording](../audio/RIGHTS.md#soft-piano).
+- Frequency sweep: original The Stonefox test signal, CC0, from the existing
+  [frequency sweep](../audio/RIGHTS.md#frequency-sweep).
+- Inputs are the repository's processed 48,000 Hz stereo WAV fixtures.
+  AAC uses 128 kb/s, Opus 96 kb/s, Vorbis quality 4, and AVI uses PCM signed
+  16-bit little-endian. See the [track guide](TRACKS.md) for the mappings.
+- English and Spanish caption text, translations and ASS styling are original
+  fixture material by The Stonefox, dedicated to
+  [CC0 1.0](../LICENSES/CC0-1.0.txt) to the extent permitted by law; the CC0
+  fallback license applies where necessary. This covers the six sidecar files
+  and their embedded representations. They describe the scene and test audio,
+  not spoken dialogue.
+- Subtitle cues are 0.200-1.300 and 1.500-2.800 seconds. MP4/MOV use MPEG-4
+  Timed Text, WebM uses WebVTT, and MKV uses SubRip plus ASS. No fonts are
+  attached; styled ASS rendering depends on the player's available fonts.
+- Source metadata and chapters are stripped. Intentional track labels, language
+  tags, timing and codec/container metadata remain. Codec priming and padding
+  can make audio/container duration slightly longer than three seconds.
+
+These combinations retain each component's rights; they do not turn NASA
+footage into CC0 or relicense any third-party material under MIT.
