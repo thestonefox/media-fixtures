@@ -11,3 +11,9 @@
 *.mkv binary
 *.avi binary
 *.ogv binary
+*.wav binary
+*.flac binary
+*.mp3 binary
+*.m4a binary
+*.ogg binary
+*.opus binary
