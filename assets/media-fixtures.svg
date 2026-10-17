@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="68"
+     viewBox="12 12 296 68" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Media Fixtures</title>
+  <desc id="logo-desc">Four colourful tiles for images, video, audio and
+    typography in a horizontal row on a transparent background.</desc>
+  <g transform="translate(-12 -12)">
+    <rect x="24" y="24" width="68" height="68" rx="16" fill="#77e5c4"/>
+    <circle cx="70" cy="44" r="5" fill="#142232"/>
+    <path d="M34 75 49 48 61 66 69 56 82 75Z" fill="#142232"/>
+    <rect x="100" y="24" width="68" height="68" rx="16" fill="#ff947d"/>
+    <rect x="111" y="44" width="29" height="30" rx="5" fill="#142232"/>
+    <path d="m144 53 15-10v32l-15-10Z" fill="#142232"/>
+  </g>
+  <g transform="translate(140 -88)">
+    <rect x="24" y="100" width="68" height="68" rx="16" fill="#bca7ff"/>
+    <g fill="#142232">
+      <rect x="34" y="126" width="6" height="16" rx="3"/>
+      <rect x="44" y="116" width="6" height="36" rx="3"/>
+      <rect x="54" y="109" width="6" height="50" rx="3"/>
+      <rect x="64" y="120" width="6" height="28" rx="3"/>
+      <rect x="74" y="128" width="6" height="12" rx="3"/>
+    </g>
+    <rect x="100" y="100" width="68" height="68" rx="16" fill="#ffd37c"/>
+    <path d="m115 151 18-37 18 37m-29-13h22" fill="none" stroke="#142232"
+          stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

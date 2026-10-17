@@ -1,28 +1,47 @@
-# media-fixtures
+# Media Fixtures <img src="assets/media-fixtures.svg" width="157" height="36" align="top" alt="Images, video, audio and fonts">
 
-Freely reusable media files in different formats and sizes for testing
-and demos. Images now; other media types can be added later.
+Freely reusable media files in different formats and sizes for testing and demos. Images and short videos are available now; audio and fonts can be added later.
 
-**15 subjects | 7 categories | 6 formats | 5 sizes | 450 image files**
+## Media
 
-[Browse the gallery](images/README.md) | [Credits and rights](images/RIGHTS.md)
+<table>
+  <tr>
+    <td valign="top">
+      <h3><a href="images/README.md">Images</a></h3>
+      <table>
+        <tr><th>Format</th><th>Files</th></tr>
+        <tr><td><a href="images/png/README.md">PNG</a></td><td align="right">75</td></tr>
+        <tr><td><a href="images/jpg/README.md">JPEG</a></td><td align="right">75</td></tr>
+        <tr><td><a href="images/gif/README.md">GIF</a></td><td align="right">75</td></tr>
+        <tr><td><a href="images/bmp/README.md">BMP</a></td><td align="right">75</td></tr>
+        <tr><td><a href="images/webp/README.md">WebP</a></td><td align="right">75</td></tr>
+        <tr><td><a href="images/avif/README.md">AVIF</a></td><td align="right">75</td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      <h3><a href="videos/README.md">Videos</a></h3>
+      <table>
+        <tr><th>Format</th><th>Files</th></tr>
+        <tr><td><a href="videos/mp4/README.md">MP4</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/webm/README.md">WebM</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/mov/README.md">MOV</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/mkv/README.md">MKV</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/avi/README.md">AVI</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/ogv/README.md">OGV</a></td><td align="right">12</td></tr>
+        <tr><td><a href="videos/gif/README.md">Animated GIF</a></td><td align="right">10</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-| Format | Files |
-| --- | --- |
-| [PNG](images/png/README.md) | 75 |
-| [JPEG](images/jpg/README.md) | 75 |
-| [GIF](images/gif/README.md) | 75 |
-| [BMP](images/bmp/README.md) | 75 |
-| [WebP](images/webp/README.md) | 75 |
-| [AVIF](images/avif/README.md) | 75 |
-
-Each format folder contains nature, people, objects, animals, space,
-illustrations and patterns, with **at least two different subjects per category**.
-Every subject is the same image across all formats and sizes.
+Three-second silent clips, with full **width x height** and orientation in every
+filename. HD examples include **1280 x 720 landscape** and **720 x 1280 portrait**.
+The complete motion collection is under 13 MB, with every file below 2 MB.
+GIF previews stay small. See the [video resolutions](videos/README.md#resolutions).
 
 ## Use a file
 
-Download an image or clone the repo. There is nothing to install or run.
+Download a media file or clone the repo. There is nothing to install or run.
 Local files work offline; remote URLs require a connection.
 
 ```text
@@ -40,19 +59,36 @@ Absolute local paths work like any other file on your machine.
 
 ## Sizes and formats
 
-Filenames follow `images/<format>/<category>/<subject>-<size>.<extension>`.
-Sizes are **64, 128, 256, 512 and 1024** pixels on the longest edge.
-Aspect ratio and framing are preserved; images are not square-cropped.
+| Type | Dimensions | Timing |
+| --- | --- | --- |
+| Image | 64, 128, 256, 512, 1024 pixels on the longest edge | Static |
+| Video | Full width x height; see [resolutions](videos/README.md#resolutions) | 3 seconds, 15 fps |
+| Animation | Small width x height variants listed in the [video gallery](videos/README.md#resolutions) | 3 seconds, 5 fps |
+
+Image filenames use `images/<format>/<category>/<subject>-<size>.<extension>`.
+Video and animated GIF filenames use:
+
+```text
+videos/<format>/<category>/<subject>-<width>x<height>-<orientation>.<extension>
+```
+
+For example, `bird-on-ledge-720x1280-portrait.mp4` is **720 pixels wide and
+1280 pixels tall**. `moon-orbit-1280x720-landscape.mp4` is **1280 pixels wide
+and 720 pixels tall**. Dimensions describe the actual frame, not a `p` label.
+
+Aspect ratio and framing are preserved. Video dimensions use an even shorter
+edge for codec compatibility; media is not square-cropped.
 Grace Hopper's smaller original is upscaled for the largest variants.
 
 PNG and WebP are lossless and preserve full alpha. AVIF preserves full
 alpha, with lossy colour for opaque images. JPEG and BMP use a white
 background for transparency. GIF uses a palette and binary transparency:
 alpha below 128 is transparent, and other partial alpha is white-matted.
-All files are static images, including GIF and WebP.
+All files under `images/` are static, including GIF and WebP.
 
 ## Rights
 
-Image credits, source links and public-domain/CC0 evidence are recorded
-in [image rights](images/RIGHTS.md). The [MIT license](LICENSE) covers
-repository documentation and does not relicense third-party images.
+Credits, source links and public-domain/CC0 evidence are recorded in
+[image rights](images/RIGHTS.md) and [video rights](videos/RIGHTS.md).
+The [MIT license](LICENSE) covers repository documentation and the original
+project logo. It does not relicense third-party media.
