@@ -1,6 +1,6 @@
 # Media Fixtures <img src="assets/media-fixtures.svg" width="157" height="36" align="top" alt="Images, video, audio and fonts">
 
-Freely reusable media files in different formats and sizes for testing and demos. Images and short videos are available now; audio and fonts can be added later.
+Freely reusable media files in different formats and sizes for testing and demos. Images, short videos and audio are available now; fonts can be added later.
 
 ## Media
 
@@ -31,6 +31,18 @@ Freely reusable media files in different formats and sizes for testing and demos
         <tr><td><a href="videos/gif/README.md">Animated GIF</a></td><td align="right">10</td></tr>
       </table>
     </td>
+    <td valign="top">
+      <h3><a href="audio/README.md">Audio</a></h3>
+      <table>
+        <tr><th>Format</th><th>Files</th></tr>
+        <tr><td><a href="audio/wav/README.md">WAV</a></td><td align="right">8</td></tr>
+        <tr><td><a href="audio/flac/README.md">FLAC</a></td><td align="right">8</td></tr>
+        <tr><td><a href="audio/mp3/README.md">MP3</a></td><td align="right">8</td></tr>
+        <tr><td><a href="audio/m4a/README.md">M4A</a></td><td align="right">8</td></tr>
+        <tr><td><a href="audio/ogg/README.md">Ogg Vorbis</a></td><td align="right">8</td></tr>
+        <tr><td><a href="audio/opus/README.md">Opus</a></td><td align="right">8</td></tr>
+      </table>
+    </td>
   </tr>
 </table>
 
@@ -38,6 +50,10 @@ Three-second silent clips, with full **width x height** and orientation in every
 filename. HD examples include **1280 x 720 landscape** and **720 x 1280 portrait**.
 The complete motion collection is under 13 MB, with every file below 2 MB.
 GIF previews stay small. See the [video resolutions](videos/README.md#resolutions).
+
+Audio samples are three seconds at **48,000 Hz**, in **mono and stereo**.
+The complete audio collection is under 7 MB, with every file below 600 KB.
+See the [audio samples](audio/README.md) for codecs, downloads and source credits.
 
 ## Use a file
 
@@ -59,11 +75,12 @@ Absolute local paths work like any other file on your machine.
 
 ## Sizes and formats
 
-| Type | Dimensions | Timing |
+| Type | Variant details | Timing |
 | --- | --- | --- |
 | Image | 64, 128, 256, 512, 1024 pixels on the longest edge | Static |
 | Video | Full width x height; see [resolutions](videos/README.md#resolutions) | 3 seconds, 15 fps |
 | Animation | Small width x height variants listed in the [video gallery](videos/README.md#resolutions) | 3 seconds, 5 fps |
+| Audio | 48,000 Hz; mono and stereo | 3 seconds nominal |
 
 Image filenames use `images/<format>/<category>/<subject>-<size>.<extension>`.
 Video and animated GIF filenames use:
@@ -86,9 +103,19 @@ background for transparency. GIF uses a palette and binary transparency:
 alpha below 128 is transparent, and other partial alpha is white-matted.
 All files under `images/` are static, including GIF and WebP.
 
+Audio filenames identify the sample rate and channel layout:
+
+```text
+audio/<format>/<category>/<subject>-<sample-rate>hz-<mono-or-stereo>.<extension>
+```
+
+For example, `birdsong-48000hz-stereo.mp3` is 48,000 Hz with two channels.
+See the [audio guide](audio/README.md) for bitrate and codec-padding details.
+
 ## Rights
 
 Credits, source links and public-domain/CC0 evidence are recorded in
-[image rights](images/RIGHTS.md) and [video rights](videos/RIGHTS.md).
+[image rights](images/RIGHTS.md), [video rights](videos/RIGHTS.md) and
+[audio rights](audio/RIGHTS.md).
 The [MIT license](LICENSE) covers repository documentation and the original
 project logo. It does not relicense third-party media.
